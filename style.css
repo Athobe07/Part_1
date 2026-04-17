@@ -1,0 +1,68 @@
+/* Basic CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/pic2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Styling the page layout */
+.logo {
+    color: orange;
+    font-size: 90px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-top: 20px;
+}
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+    font-size: 30px;
+    margin-left: 100px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+nav ul li a:hover {
+    color: orange;
+}
+
+h1 {
+    color: orange;
+    padding-top: 150px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+p {
+    color: white;
+    padding-top: 20px;
+    font-size: 30px;
+    margin-left: 30px;
+} 
+button {
+    width:160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
